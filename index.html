@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang=pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MusicLab</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <!-- Cabeçalho -->
+        <header>
+            <h1>MusicLab</h1>
+        </header>
+
+        <!-- Corpo -->
+        <main>
+
+            <!-- Busca -->
+            <section>
+                <!-- Input de pesquisa -->
+                <input type="text" placeholder="Digite o nome de uma banda ou gênero" id="campo-pesquisa">
+                <button onclick="pesquisar()">Pesquisar</button>
+            </section>
+
+            <!-- Resultados -->
+            <section class="resultados-pesquisa" id="resultados-pesquisa">
+            </section>
+
+        </main>
+
+        <!-- Rodapé -->
+        <footer>
+            <p>Todos os direitos reservados</p>
+            <p>Entre em contato pelo email: vini@gmail.com</p>
+        </footer>
+
+
+        <!-- Import JS -->
+        <script src="dados.js"></script>
+        <script src="app.js"></script>
+    </body>
+
+</html>
